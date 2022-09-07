@@ -72,11 +72,20 @@
     height: 220px;
 }
 
-.container .card h3{
+.container .card h4{
+    padding: 0 1rem;
     font-weight: 680;
 }
 
-.container .card h4{
+.container .card h4, h5{
+    text-align: left;
+}
+
+.container .card p.autor{
+    font-size: 15px;
+}
+
+.container .card h5{
     padding: 0 1rem;
     font-size: 16px;
 }
@@ -85,4 +94,5 @@
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
+    text-align: justify;
 }
